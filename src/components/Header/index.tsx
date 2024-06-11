@@ -8,7 +8,7 @@ export const Header = () => {
         <div className={styles.header__info}>
         <p className={styles.header__title}>Welcome to</p>
         <Image src={'/assets/img/bigLogo.png'} alt='bigLogo' width={315} height={161}/>
-        <p className={styles.header__desc}>Bilim is an online platform designed to help you to learn English comfortably.</p>
+        <p className={styles.header__desc}>Student Union is an learning centre designed to help you to learn several courses comfortably to achieve success in your life.</p>
         <div className={styles.header__btns}>
             <button className={styles.header__getBtn}>Get started</button>
             <button className={styles.header__freeBtn}>Try free</button>
