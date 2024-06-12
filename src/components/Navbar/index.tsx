@@ -11,9 +11,9 @@ export const Navbar = () => {
 
   return (
     <div className={styles.navbar}>
-        <Image className={styles.navbar__logo} src={'/assets/img/logo.png'} alt='logo' width={85} height={38}/>
+        <Image className={styles.navbar__logo} src={'/assets/img/logo.png'} alt='logo' width={84} height={50}/>
         <ul className={styles.navbar__menu}>
-            <li>About us</li>
+            <li>About Us</li>
             <li>Courses</li>
             <li>Reviews</li>
             <li>Teachers</li>

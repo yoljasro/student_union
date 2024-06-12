@@ -3,8 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   i18n: {
-    locales: ['ru', 'eng', 'uz',],
-    defaultLocale: 'ru'
+    locales: ['uz', 'en', 'ru',],
+    defaultLocale: 'uz'
   },
   typescript: {
     ignoreBuildErrors: true,

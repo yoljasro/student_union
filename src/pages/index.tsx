@@ -5,6 +5,8 @@ import styles from "@/styles/Home.module.sass";
 import { Navbar } from "@/components/Navbar";
 import { Header } from "@/components/Header";
 import { About } from "@/components/About";
+import { Reviews } from "@/components/Reviews";
+import type { NextPage, GetStaticProps } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +22,16 @@ export default function Home() {
       <Navbar/>
       <Header/>
       <About/>
+      <Reviews/>
     </>
   );
 }
+
+
+export const getStaticProps: GetStaticProps = async ({ locale }) => {
+  return {
+    props: {
+      messages: (await import(`../messages/${locale}.json`)).default,
+    },
+  };
+};

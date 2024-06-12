@@ -1,47 +1,46 @@
 @import "../../styles/variables"
 @import "../../styles/mixins"
 
-.about
-    width: 100%
-    margin-top: 60px
+.reviews
 
     &__title
         font-family: Roboto
-        font-size: 96px
         color: #245D51
+        font-size: 96px
         text-align: center
 
     &__cards
         display: flex
         gap: 20px
+        margin-top: 50px
+        flex-wrap: wrap
         justify-content: center
 
     &__card
         width: 100%
         max-width: 587px
-        height: 360px
-        background: #245D51
-        border-radius: 8px 0px 0px 0px
+        height: 380px
+        border-radius: 8px
         opacity: 0px
-        box-shadow: 0px 4px 10px 0px #00000066
+        background: #245D51
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1)
         display: flex
         justify-content: center
         flex-direction: column
-        color: #FFFFFF
-        justify-content: center
-        align-items: center
         align-content: center
+        align-items: center
 
-    &__cardTitle
+    &__pupilTitle
         font-family: Roboto
         font-size: 24px
         text-align: center
         color: #FFFFFF
 
-    &__desc
+    &__pupilDesc
         font-family: Roboto-Regular
-        font-size: 20px
+        font-size: 16px
+        line-height: 25px
         text-align: center
         color: #FFFFFF
-        width: 100%
-        max-width: 474px
+        padding-right: 3px
+        padding-left: 3px

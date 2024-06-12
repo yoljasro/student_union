@@ -1,3 +1,16 @@
 {
-    "test" : "test"
+    "pupils": {
+        "one": "Biz sizni qadrlaymiz.",
+        "oneDesc": "O'qituvchilar faqat o'rgatmaydi - ular bizni kelajak uchun tayyorlaydi. Biz sizning harakatlaringizni qadrlaymiz.",
+        "two": "Sizning fidokorligingiz e'tiborsiz qolmaydi.",
+        "twoDesc": "O'qituvchilar uchun bizning bilimlarimizni baholash, darslarni tayyorlash va shaxsiy va oilaviy holatlarga asoslangan konferentsiyalarda ishtirok etish juda foydali.",
+        "three": "Men vaqtni tejayapman.",
+        "threeDesc": "Men barcha kerakli fanlarni bir joyda o'rganayotganimdan faxrlanaman.",
+        "four": "Menga sharoitlar yoqadi.",
+        "fourDesc": "Menga sharoitlar, ayniqsa interaktiv doskalar yoqadi va xonalar dizayni juda zamonaviy.",
+        "five": "Men hech narsa bilmas edim.",
+        "fiveDesc": "Malakali o'qituvchilarning darslaridan so'ng ko'p narsalarni o'rgandim, rahmat.",
+        "six": "O'qitish usuli oson.",
+        "sixDesc": "O'qitish usulingiz oson bo'lgani uchun har kuni darslarga kelishni xohlayman."
+    }
 }
