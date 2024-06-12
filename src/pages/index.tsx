@@ -6,7 +6,9 @@ import { Navbar } from "@/components/Navbar";
 import { Header } from "@/components/Header";
 import { About } from "@/components/About";
 import { Reviews } from "@/components/Reviews";
+import { Map } from "@/components/Map";
 import type { NextPage, GetStaticProps } from "next";
+import { Courses } from "@/components/Courses";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +24,9 @@ export default function Home() {
       <Navbar/>
       <Header/>
       <About/>
+      <Courses/>
       <Reviews/>
+      <Map/>
     </>
   );
 }
