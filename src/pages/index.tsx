@@ -9,6 +9,7 @@ import { Reviews } from "@/components/Reviews";
 import { Map } from "@/components/Map";
 import type { NextPage, GetStaticProps } from "next";
 import { Courses } from "@/components/Courses";
+import { Footer } from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +28,7 @@ export default function Home() {
       <Courses/>
       <Reviews/>
       <Map/>
+      <Footer/>
     </>
   );
 }
