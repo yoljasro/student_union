@@ -1,10 +1,13 @@
 import React from 'react'
 import styles from './index.module.sass'
 import Image from 'next/image'
+import { Zoom, Fade } from "react-reveal";
+
 
 export const About = () => {
   return (
     <div className={styles.about}>
+      <Fade left cascade>
       <p className={styles.about__title}>About Us</p>
       <div className={styles.about__cards}>
         <div className={styles.about__card}>
@@ -23,6 +26,7 @@ export const About = () => {
           <p className={styles.about__desc}>You don’t have to worry about your timetable. Our teachers will design a right plan for you. </p>
         </div>
       </div>
+      </Fade>
     </div>
   )
 }

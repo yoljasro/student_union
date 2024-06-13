@@ -1,10 +1,13 @@
 import React from 'react'
 import styles from './index.module.sass'
 import Image from 'next/image'
+import { Zoom, Fade } from "react-reveal";
+
 
 export const Courses = () => {
   return (
     <div className={styles.courses}>
+        <Zoom  cascade>
         <p className={styles.courses__title}>Our Courses</p>
         <div className={styles.courses__cards}>
             <div className={styles.courses__card}>
@@ -71,6 +74,7 @@ export const Courses = () => {
                 </div>
             </div>
         </div>
+        </Zoom>
     </div>
   )
 }
