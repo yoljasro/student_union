@@ -11,6 +11,8 @@ import type { NextPage, GetStaticProps } from "next";
 import { Courses } from "@/components/Courses";
 import { Footer } from "@/components/Footer";
 import { Teachers } from "@/components/Teachers";
+import { Prices } from "@/components/Prices";
+import { Learn } from "@/components/Learn";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,9 +29,11 @@ export default function Home() {
       <Header/>
       <About/>
       <Courses/>
+      <Learn/>
       <Reviews/>
       <Teachers/>
       <Map/>
+      {/* <Prices/> */}
       <Footer/>
     </>
   );
