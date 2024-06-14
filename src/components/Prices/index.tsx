@@ -1,44 +1,83 @@
-// components/ImageSlider.tsx
-import React from 'react';
-import Slider from 'react-slick';
-import styles from './index.module.css';
+import { useEffect, useRef } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import { EffectCoverflow, Pagination } from 'swiper/modules';
+import styles from './index.module.sass';
 
 export const Prices: React.FC = () => {
-  const images = [
-    { id: 1, src: '/assets/img/logo.png', alt: 'Image 1' },
-    { id: 2, src: '/assets/img/logo.png', alt: 'Image 2' },
-    { id: 3, src: '/assets/img/logo.png', alt: 'Image 3' },
-    { id: 4, src: '/assets/img/logo.png', alt: 'Image 4' },
-    { id: 5, src: '/assets/img/logo.png', alt: 'Image 5' },
-    { id: 6, src: '/assets/img/logo.png', alt: 'Image 6' },
-  ];
+  const swiperRef = useRef(null);
 
-  const settings = {
-    infinite: true,
-    dots: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    lazyLoad: 'ondemand' as const,
-    autoplay: true,
-    autoplaySpeed: 2000,
-  };
+  useEffect(() => {
+    if (swiperRef.current) {
+      swiperRef.current.swiper.update();
+    }
+  }, []);
 
   return (
-    <>
-      <div className={styles.tag}>
-        <h1>Image Gallery</h1>
-      </div>
-      <div className={styles.imgslider}>
-        <Slider className='slider' {...settings}>
-          {images.map((item) => (
-            <div key={item.id}>
-              <img src={item.src} alt={item.alt} />
-              <p className='text'>{item.alt}</p>
-            </div>
-          ))}
-        </Slider>
-      </div>
-    </>
+    <div className={styles.container}>
+      <Swiper
+        effect="coverflow"
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={3}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={{ clickable: true }}
+        modules={[EffectCoverflow, Pagination]}
+        className={styles.swiper}
+        ref={swiperRef}
+      >
+        <SwiperSlide className={styles.swiperSlide}>
+          <p className={styles.swiperSlide__title}>Speaking english</p>
+          <p className={styles.swiperSlide__lesson}>35 lessons</p>
+          <p className={styles.swiperSlide__hour}>57 hours</p>
+          <p className={styles.swiperSlide__price}>2,000.000 lessons</p>
+          <button className={styles.swiperSlider__btn}>Try it</button>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperSlide}>
+        <p className={styles.swiperSlide__title}>Speaking english</p>
+          <p className={styles.swiperSlide__lesson}>35 lessons</p>
+          <p className={styles.swiperSlide__hour}>57 hours</p>
+          <p className={styles.swiperSlide__price}>2,000.000 lessons</p>
+          <button className={styles.swiperSlider__btn}>Try it</button>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperSlide}>
+        <p className={styles.swiperSlide__title}>Speaking english</p>
+          <p className={styles.swiperSlide__lesson}>35 lessons</p>
+          <p className={styles.swiperSlide__hour}>57 hours</p>
+          <p className={styles.swiperSlide__price}>2,000.000 lessons</p>
+          <button className={styles.swiperSlider__btn}>Try it</button>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperSlide}>
+        <p className={styles.swiperSlide__title}>Speaking english</p>
+          <p className={styles.swiperSlide__lesson}>35 lessons</p>
+          <p className={styles.swiperSlide__hour}>57 hours</p>
+          <p className={styles.swiperSlide__price}>2,000.000 lessons</p>
+          <button className={styles.swiperSlider__btn}>Try it</button>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperSlide}>
+        <p className={styles.swiperSlide__title}>Speaking english</p>
+          <p className={styles.swiperSlide__lesson}>35 lessons</p>
+          <p className={styles.swiperSlide__hour}>57 hours</p>
+          <p className={styles.swiperSlide__price}>2,000.000 lessons</p>
+          <button className={styles.swiperSlider__btn}>Try it</button>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperSlide}>
+        <p className={styles.swiperSlide__title}>Speaking english</p>
+          <p className={styles.swiperSlide__lesson}>35 lessons</p>
+          <p className={styles.swiperSlide__hour}>57 hours</p>
+          <p className={styles.swiperSlide__price}>2,000.000 lessons</p>
+          <button className={styles.swiperSlider__btn}>Try it</button>
+        </SwiperSlide>
+      </Swiper>
+    </div>
   );
 };
 

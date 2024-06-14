@@ -33,7 +33,7 @@ export default function Home() {
       <Reviews/>
       <Teachers/>
       <Map/>
-      {/* <Prices/> */}
+      <Prices/>
       <Footer/>
     </>
   );

@@ -8,7 +8,7 @@ export const Header = () => {
     <div className={styles.header}>
       <div className={styles.header__info}>
         <p className={styles.header__title}>Welcome to</p>
-        <Image src={'/assets/img/blacklogo.png'} alt='bigLogo' width={505} height={351} />
+        <Image className={styles.header__logo} src={'/assets/img/blacklogo.png'} alt='bigLogo' width={405} height={301} />
         <p className={styles.header__desc}>Student Union is an learning centre designed to help you to learn several courses comfortably to achieve success in your life.</p>
         <div className={styles.header__btns}>
           <button className={styles.header__getBtn}>Get started</button>
