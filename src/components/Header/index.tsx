@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export const Header = () => {
   return (
-    <div className={styles.header}>
+    <div className={styles.header} id='header'>
       <div className={styles.header__info}>
         <p className={styles.header__title}>Welcome to</p>
         <Image className={styles.header__logo} src={'/assets/img/blacklogo.png'} alt='bigLogo' width={405} height={301} />

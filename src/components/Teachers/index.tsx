@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export const Teachers = () => {
   return (
-    <div className={styles.teachers}>
+    <div className={styles.teachers} id='teachers'>
       <p className={styles.teachers__title}>Teachers</p>
       <div className={styles.teachers__cards}>
         <div className={styles.teachers__card}>

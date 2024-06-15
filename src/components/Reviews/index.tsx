@@ -9,7 +9,7 @@ export const Reviews = () => {
     const router = useRouter();
 
     return (
-        <div className={styles.reviews}>
+        <div className={styles.reviews} id='reviews'>
             <p className={styles.reviews__title}>Reviews</p>
             <div className={styles.reviews__cards}>
                 <div className={styles.reviews__card}>

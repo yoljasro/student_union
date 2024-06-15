@@ -48,7 +48,7 @@ export const Map: FC<MapProps> = () => {
 
     return (
         <>
-                <div className={styles.location}>
+                <div className={styles.location} id="location">
                     <div>
                         {selectedPlace && (
                             <InfoWindow

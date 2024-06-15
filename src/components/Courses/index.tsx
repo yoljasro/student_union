@@ -6,7 +6,7 @@ import { Zoom, Fade } from "react-reveal";
 
 export const Courses = () => {
   return (
-    <div className={styles.courses}>
+    <div className={styles.courses} id='courses'>
         <Zoom  cascade>
         <p className={styles.courses__title}>Our Courses</p>
         <div className={styles.courses__cards}>

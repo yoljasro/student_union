@@ -18,7 +18,7 @@ export const Prices: React.FC = () => {
   }, []);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id='prices'>
       <p className={styles.container__title}>Prices</p>
       <Swiper
         effect="coverflow"

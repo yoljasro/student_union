@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export const Learn = () => {
     return (
-        <div className={styles.learn}>
+        <div className={styles.learn} id='learn'>
             <p className={styles.learn__title}>Learn english with us <br /> starting from today</p>
             <div className={styles.learn__content}>
                 <Image src={'/assets/img/learnBoy.png'} width={438} height={438} alt='image'/>

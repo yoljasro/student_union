@@ -6,7 +6,7 @@ import { Zoom, Fade } from "react-reveal";
 
 export const About = () => {
   return (
-    <div className={styles.about}>
+    <div className={styles.about} id='about'>
       <Fade left cascade>
       <p className={styles.about__title}>About Us</p>
       <div className={styles.about__cards}>
