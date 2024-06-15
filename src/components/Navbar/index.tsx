@@ -12,9 +12,14 @@ export const Navbar = () => {
 
   return (
     <div className={styles.navbar}>
+      <div className={styles.navbar__info}>
       <Link  href={'/'}>
         <Image className={styles.navbar__logo} src={'/assets/img/whitelogo.png'} alt='logo' width={194} height={186} />
       </Link>
+      <Link href={'tel:+998781139545'} target='_blank'>
+      <p className={styles.navbar__number}>+998781139545</p>
+      </Link>
+      </div>
       <ul className={styles.navbar__menu}>
         <li>About Us</li>
         <li>Courses</li>
