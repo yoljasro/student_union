@@ -10,11 +10,39 @@
     justify-content: space-between
     overflow: hidden
 
+    &__info
+        display: flex
+
     &__item
         display: flex
 
-    &__info
+    &__toggle
+        display: none
+        font-size: 32px
+        cursor: pointer
+        background: none
+        border: none
+        color: white
+        margin-right: 20px
+
+        @media (max-width:769px)
+            display: flex
+
+    &__item
         display: flex
+        align-items: center
+        transition: max-height 0.3s ease-in-out
+
+        @media (max-width: 768px)
+            flex-direction: column
+            align-items: flex-start
+            width: 100%
+            max-height: 0
+            overflow: hidden
+
+    &.navbar__item_open
+        @media (max-width: 768px)
+            max-height: 1000px
 
     &__logo
         margin-left: 60px
@@ -25,6 +53,7 @@
         font-size: 20px
         padding-top: 8px
         cursor: pointer
+        padding-top: 25px
 
     &__menu
         display: flex
