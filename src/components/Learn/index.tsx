@@ -7,7 +7,7 @@ export const Learn = () => {
         <div className={styles.learn} id='learn'>
             <p className={styles.learn__title}>Learn english with us <br /> starting from today</p>
             <div className={styles.learn__content}>
-                <Image src={'/assets/img/learnBoy.png'} width={438} height={438} alt='image'/>
+                <Image className={styles.learn__image} src={'/assets/img/learnBoy.png'} width={438} height={438} alt='image'/>
                 <div className={styles.learn__cards}>
                     <div className={styles.learn__card}>
                         <button className={styles.learn__btn}>Contact Us</button>

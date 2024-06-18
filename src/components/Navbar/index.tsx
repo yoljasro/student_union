@@ -20,6 +20,7 @@ export const Navbar = () => {
       <p className={styles.navbar__number}>+998781139545</p>
       </a>
       </div>
+      <div className={styles.navbar__item}>
       <ul className={styles.navbar__menu}>
       <Link
               activeClass="active"
@@ -87,8 +88,11 @@ export const Navbar = () => {
             >
         <li>Contact</li>
         </Link>
+
       </ul>
       <Lang />
+      </div>
+
     </div>
   )
 }
