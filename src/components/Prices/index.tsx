@@ -7,6 +7,7 @@ import { EffectCoverflow, Pagination, Autoplay } from 'swiper/modules';
 import styles from './index.module.sass';
 import Image from 'next/image';
 import Link from 'next/link';
+import { Zoom, Fade , Rotate } from "react-reveal";
 
 export const Prices: React.FC = () => {
   const swiperRef = useRef(null);
@@ -19,7 +20,9 @@ export const Prices: React.FC = () => {
 
   return (
     <div className={styles.container} id='prices'>
+      <Zoom bottom cascade>
       <p className={styles.container__title}>Prices</p>
+      </Zoom>
       <Swiper
         effect="coverflow"
         autoplay={{ delay: 3000, disableOnInteraction: false }} // Adjust the delay and interaction settings as needed

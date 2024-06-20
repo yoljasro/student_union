@@ -1,10 +1,12 @@
 import React from 'react'
 import styles from './index.module.sass'
 import Image from 'next/image'
+import { Zoom, Fade , Rotate } from "react-reveal";
 
 export const Teachers = () => {
   return (
     <div className={styles.teachers} id='teachers'>
+      <Fade right cascade>
       <p className={styles.teachers__title}>Teachers</p>
       <div className={styles.teachers__cards}>
         <div className={styles.teachers__card}>
@@ -57,6 +59,7 @@ export const Teachers = () => {
         </div>
 
       </div>
+      </Fade>
     </div>
   )
 }

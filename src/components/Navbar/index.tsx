@@ -16,6 +16,7 @@ export const Navbar = () => {
 
   return (
     <div className={`${styles.navbar} ${menuOpen ? styles.navbar_open : ''}`}>
+      <Fade top cascade>
       <div className={styles.navbar__info}>
         <a href={'/'}>
           <Image className={styles.navbar__logo} src={'/assets/img/whitelogo.png'} alt='logo' width={194} height={186} />
@@ -50,6 +51,7 @@ export const Navbar = () => {
         </a>  
         <Lang />
       </div>
+      </Fade>
     </div>
   );
 };

@@ -3,6 +3,8 @@ import styles from './index.module.sass'
 import Image from 'next/image'
 import { useTranslations } from "next-intl";
 import { useRouter } from 'next/router';
+import { Zoom, Fade } from "react-reveal";
+
 
 export const Reviews = () => {
     const t = useTranslations()
@@ -10,6 +12,7 @@ export const Reviews = () => {
 
     return (
         <div className={styles.reviews} id='reviews'>
+            <Fade bottom cascade>
             <p className={styles.reviews__title}>Reviews</p>
             <div className={styles.reviews__cards}>
                 <div className={styles.reviews__card}>
@@ -44,6 +47,7 @@ export const Reviews = () => {
                 </div>
 
             </div>
+            </Fade>
         </div>
     )
 }
