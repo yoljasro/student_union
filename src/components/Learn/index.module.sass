@@ -8,13 +8,15 @@
     align-content: center
     align-items: center
 
+    @media (min-width: 1000px) and (max-width:1400px)
+        padding-right: 60px
+
     &__title
         font-family: Roboto
         font-size: 80px
         text-align: center
         color: #245D51
         padding-top: 60px
-        // max-width: 566px
         justify-content: center
         align-content: center
         align-items: center
@@ -26,6 +28,8 @@
     &__image
         @media (max-width:769px)
             display: none
+        @media (min-width: 1000px) and (max-width:1400px)
+            padding-left: 60px !important
 
     &__content
         display: flex
@@ -41,6 +45,7 @@
         flex-direction: column
         gap: 20px
         margin-top: 50px
+        margin-right: 60px
         @media (max-width:769px)
             justify-content: center
             align-content: center
@@ -48,7 +53,7 @@
 
     &__card
         width: 100%
-        width: 891px
+        max-width: 891px
         height: 200px
         border-radius: 8px
         background-color: #FFFFFF
@@ -90,3 +95,7 @@
         @media (max-width:769px)
             text-align: center
             padding-left: 0
+
+        @media (min-width: 1000px) and (max-width:1500px)
+            padding-left: 0
+            font-size: 15px
