@@ -28,22 +28,19 @@ export const Navbar = () => {
       <div className={`${styles.navbar__item} ${menuOpen ? styles.navbar__item_open : ''}`}>
         <ul className={styles.navbar__menu}>
           <Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500} className={styles.navbar__link}>
-            <li>About Us</li>
+            <li>{t("about")}</li>
           </Link>
           <Link activeClass="active" to="courses" spy={true} smooth={true} offset={-70} duration={500} className={styles.navbar__link}>
-            <li>Courses</li>
+            <li>{t("courses")}</li>
           </Link>
           <Link activeClass="active" to="reviews" spy={true} smooth={true} offset={-70} duration={500} className={styles.navbar__link}>
-            <li>Reviews</li>
+            <li>{t("reviews")}</li>
           </Link>
           <Link activeClass="active" to="teachers" spy={true} smooth={true} offset={-70} duration={500} className={styles.navbar__link}>
-            <li>Teachers</li>
+            <li>{t("teachers")}</li>
           </Link>
           <Link activeClass="active" to="prices" spy={true} smooth={true} offset={-70} duration={500} className={styles.navbar__link}>
-            <li>Prices</li>
-          </Link>
-          <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500} className={styles.navbar__link}>
-            <li>Contact</li>
+            <li>{t("prices")}</li>
           </Link>
         </ul>
         <a href={'tel:+998781139545'} target='_blank' className={styles.navbar__number}>

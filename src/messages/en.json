@@ -8,7 +8,22 @@
     "welcome": "Welcome to",
     "know": "Bilim is an online platform designed to help you to learn English comfortably.",
     "getBtn": "Get started",
+    "headeText" : "Student Union is an learning centre designed to help you to learn several courses comfortably to achieve success in your life.",
     "tryBtn": "Try free",
+    "aboutBlock" :{
+        "title" :"Comfy environment",
+        "desc" :"You can schedule your own timetable and how long you would like to study",
+        "descTwo" : "Our teachers are highly qualified and have many years of experience with working with children as well with adults",
+        "titleThre" : "Planned system",
+        "descThree" : "You don’t have to worry about your timetable. Our teachers will design a right plan for you."
+    },
+    "learn" : {
+        "title" : "Learn english with us starting from today",
+        "one" : "You can check our free lesson with our teachers or you can pay for the the course with a discount and start learning",
+        "two" : "Once your level checked up you can start your lessons with us. Our teachers then will plan appropriate methods to run the lessons.",
+        "three" :"Once the classes likes, start your learning journey with us!!!",
+        "contact" : "Contact Us"
+    },
     "why": {
         "title": "Why Bilim",
         "cardOne": "Comfy environment",
@@ -19,11 +34,30 @@
         "cardDescThree": "You don’t have to worry about your timetable. Our teachers will design a right plan for you. "
     },
     "coursesList": {
-        "title": "Beginner",
+        "title": "Our Courses",
         "desc": "corresponds to basic users of English who can understand and very basic phrases.",
-        "start": "Start"
+        "start": "Start" , 
+        "english" : "English" , 
+        "korean" : "Korean language",
+        "russian" : "Russian",
+        "chinese" : "Chinese language",
+        "german" : "German language",
+        "it" : "IT",
+        "biology" : "Biology",
+        "chemistry" : "Chemistry",
+        "sat" : "SAT",
+        "mathematic" : "Mathematics",
+        "nursing" : "Nursing course",
+        "design" : "Design courses",
+        "englishPrice" : "From 500,000 soums to 850,000 soums",
+        "coreanPrice" : "850 000  soum",
+        "russianPrice" :"850 000 soum" , 
+        "chinesePrice" : "850 000 soum",
+        "satPrice" : "1500 000 soum"
     },
+        
     "pupils": {
+        "title" : "Reviews",
         "one": " We appreciate you.",
         "oneDesc": " Teachers don't just teach - they prepare us for the future. We appreciate your actions. ",
         "two": "Your dedication will not go unnoticed.",

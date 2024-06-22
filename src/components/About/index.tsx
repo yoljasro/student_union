@@ -2,28 +2,30 @@ import React from 'react'
 import styles from './index.module.sass'
 import Image from 'next/image'
 import { Zoom, Fade } from "react-reveal";
-
+import { useTranslations } from "next-intl";
 
 export const About = () => {
+  const t = useTranslations()
+
   return (
     <div className={styles.about} id='about'>
       <Fade left cascade>
-      <p className={styles.about__title}>About Us</p>
+      <p className={styles.about__title}>{t("about")}</p>
       <div className={styles.about__cards}>
         <div className={styles.about__card}>
           <Image src={'/assets/img/cardone.png'} alt='cardone' width={48} height={48} />
-          <p className={styles.about__cardTitle}>Comfy environment</p>
-          <p className={styles.about__desc}>You can schedule your own timetable and how long you would like to study</p>
+          <p className={styles.about__cardTitle}>{t("aboutBlock.title")}</p>
+          <p className={styles.about__desc}>{t("aboutBlock.desc")}</p>
         </div>
         <div className={styles.about__card}>
           <Image src={'/assets/img/cardtwo.png'} alt='cardone' width={48} height={48} />
-          <p className={styles.about__cardTitle}>Comfy environment</p>
-          <p className={styles.about__desc}>Our teachers are highly qualified and have many years of experience with working with children as well with adults</p>
+          <p className={styles.about__cardTitle}>{t("aboutBlock.title")}</p>
+          <p className={styles.about__desc}>{t("aboutBlock.descTwo")}</p>
         </div>
         <div className={styles.about__card}>
           <Image src={'/assets/img/cardthree.png'} alt='cardone' width={48} height={48} />
-          <p className={styles.about__cardTitle}>Planned system</p>
-          <p className={styles.about__desc}>You don’t have to worry about your timetable. Our teachers will design a right plan for you. </p>
+          <p className={styles.about__cardTitle}>{t("aboutBlock.titleThre")}</p>
+          <p className={styles.about__desc}>{t("aboutBlock.descThree")} </p>
         </div>
       </div>
       </Fade>
