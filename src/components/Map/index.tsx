@@ -30,9 +30,9 @@ type MapProps = {};
 export const Map: FC<MapProps> = () => {
     const [places, setPlaces] = useState<Place[]>([
         {
-            name: "Kardise",
+            name: "Student Union",
             location: { lat: 41.315281, lng: 69.289192 },
-            info: "Qurilish Kompaniyasi",
+            info: "Learning center",
         },
     ]);
 
