@@ -19,7 +19,7 @@ export const Courses = () => {
                             <p className={styles.courses__desc}>corresponds to basic users of English who can understand and very basic phrases.</p>
                         </div>
                         <div className={styles.courses__content}>
-                            <Image src={'/assets/img/sucharaBoy.png'} alt='sucharaboy' width={74} height={74} />
+                            <Image src={'/assets/img/sucha.png'} alt='sucharaboy' width={74} height={74} />
                             <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
                                 <button className={styles.courses__btn}>{t("coursesList.start")}</button>
                             </Link>
@@ -31,7 +31,7 @@ export const Courses = () => {
                             <p className={styles.courses__desc}>corresponds to basic users of English who can understand and very basic phrases.</p>
                         </div>
                         <div className={styles.courses__content}>
-                            <Image src={'/assets/img/sucharaBoy.png'} alt='sucharaboy' width={74} height={74} />
+                            <Image src={'/assets/img/sucha.png'} alt='sucharaboy' width={74} height={74} />
                             <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
                                 <button className={styles.courses__btn}>{t("coursesList.start")}</button>
                             </Link>
@@ -43,7 +43,7 @@ export const Courses = () => {
                             <p className={styles.courses__desc}>corresponds to basic users of English who can understand and very basic phrases.</p>
                         </div>
                         <div className={styles.courses__content}>
-                            <Image src={'/assets/img/sucharaBoy.png'} alt='sucharaboy' width={74} height={74} />
+                            <Image src={'/assets/img/sucha.png'} alt='sucharaboy' width={74} height={74} />
                             <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
                                 <button className={styles.courses__btn}>{t("coursesList.start")}</button>
                             </Link>
@@ -56,7 +56,7 @@ export const Courses = () => {
                             <p className={styles.courses__desc}>corresponds to basic users of English who can understand and very basic phrases.</p>
                         </div>
                         <div className={styles.courses__content}>
-                            <Image src={'/assets/img/sucharaBoy.png'} alt='sucharaboy' width={74} height={74} />
+                            <Image src={'/assets/img/sucha.png'} alt='sucharaboy' width={74} height={74} />
                             <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
                                 <button className={styles.courses__btn}>{t("coursesList.start")}</button>
                             </Link>
@@ -69,7 +69,7 @@ export const Courses = () => {
                             <p className={styles.courses__desc}>corresponds to basic users of English who can understand and very basic phrases.</p>
                         </div>
                         <div className={styles.courses__content}>
-                            <Image src={'/assets/img/sucharaBoy.png'} alt='sucharaboy' width={74} height={74} />
+                            <Image src={'/assets/img/sucha.png'} alt='sucharaboy' width={74} height={74} />
                             <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
                                 <button className={styles.courses__btn}>{t("coursesList.start")}</button>
                             </Link>
@@ -82,7 +82,7 @@ export const Courses = () => {
                             <p className={styles.courses__desc}>corresponds to basic users of English who can understand and very basic phrases.</p>
                         </div>
                         <div className={styles.courses__content}>
-                            <Image src={'/assets/img/sucharaBoy.png'} alt='sucharaboy' width={74} height={74} />
+                            <Image src={'/assets/img/sucha.png'} alt='sucharaboy' width={74} height={74} />
                             <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
                                 <button className={styles.courses__btn}>{t("coursesList.start")}</button>
                             </Link>
@@ -95,7 +95,7 @@ export const Courses = () => {
                             <p className={styles.courses__desc}>corresponds to basic users of English who can understand and very basic phrases.</p>
                         </div>
                         <div className={styles.courses__content}>
-                            <Image src={'/assets/img/sucharaBoy.png'} alt='sucharaboy' width={74} height={74} />
+                            <Image src={'/assets/img/sucha.png'} alt='sucharaboy' width={74} height={74} />
                             <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
                                 <button className={styles.courses__btn}>{t("coursesList.start")}</button>
                             </Link>
@@ -108,7 +108,7 @@ export const Courses = () => {
                             <p className={styles.courses__desc}>corresponds to basic users of English who can understand and very basic phrases.</p>
                         </div>
                         <div className={styles.courses__content}>
-                            <Image src={'/assets/img/sucharaBoy.png'} alt='sucharaboy' width={74} height={74} />
+                            <Image src={'/assets/img/sucha.png'} alt='sucharaboy' width={74} height={74} />
                             <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
                                 <button className={styles.courses__btn}>{t("coursesList.start")}</button>
                             </Link>
@@ -121,7 +121,7 @@ export const Courses = () => {
                             <p className={styles.courses__desc}>corresponds to basic users of English who can understand and very basic phrases.</p>
                         </div>
                         <div className={styles.courses__content}>
-                            <Image src={'/assets/img/sucharaBoy.png'} alt='sucharaboy' width={74} height={74} />
+                            <Image src={'/assets/img/sucha.png'} alt='sucharaboy' width={74} height={74} />
                             <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
                                 <button className={styles.courses__btn}>{t("coursesList.start")}</button>
                             </Link>
@@ -134,7 +134,7 @@ export const Courses = () => {
                             <p className={styles.courses__desc}>corresponds to basic users of English who can understand and very basic phrases.</p>
                         </div>
                         <div className={styles.courses__content}>
-                            <Image src={'/assets/img/sucharaBoy.png'} alt='sucharaboy' width={74} height={74} />
+                            <Image src={'/assets/img/sucha.png'} alt='sucharaboy' width={74} height={74} />
                             <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
                                 <button className={styles.courses__btn}>{t("coursesList.start")}</button>
                             </Link>
@@ -147,7 +147,7 @@ export const Courses = () => {
                             <p className={styles.courses__desc}>corresponds to basic users of English who can understand and very basic phrases.</p>
                         </div>
                         <div className={styles.courses__content}>
-                            <Image src={'/assets/img/sucharaBoy.png'} alt='sucharaboy' width={74} height={74} />
+                            <Image src={'/assets/img/sucha.png'} alt='sucharaboy' width={74} height={74} />
                             <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
                                 <button className={styles.courses__btn}>{t("coursesList.start")}</button>
                             </Link>
@@ -160,7 +160,7 @@ export const Courses = () => {
                             <p className={styles.courses__desc}>corresponds to basic users of English who can understand and very basic phrases.</p>
                         </div>
                         <div className={styles.courses__content}>
-                            <Image src={'/assets/img/sucharaBoy.png'} alt='sucharaboy' width={74} height={74} />
+                            <Image src={'/assets/img/sucha.png'} alt='sucharaboy' width={74} height={74} />
                             <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
                                 <button className={styles.courses__btn}>{t("coursesList.start")}</button>
                             </Link>
