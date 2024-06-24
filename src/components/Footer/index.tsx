@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './index.module.sass'
 import Image from 'next/image'
 import { Zoom, Fade , Rotate } from "react-reveal";
-
+import Link from 'next/link';
 
 export const Footer = () => {
   return (
@@ -15,7 +15,9 @@ export const Footer = () => {
       <div className={styles.footer__social}>
         <Rotate bottom cascade>
         <Image className={styles.footer__icon} src={'/assets/img/facebook.png'} alt='facebook' width={45} height={45} />
+        <Link href={'https://www.instagram.com/student_union_edu_/'} target='_blank'>
         <Image className={styles.footer__icon} src={'/assets/img/insta.png'} alt='insta' width={45} height={45} />
+        </Link>
         <Image className={styles.footer__icon} src={'/assets/img/linkedin.png'} alt='linkedin' width={45} height={45} />
         <Image className={styles.footer__icon} src={'/assets/img/telegram.png'} alt='telegram' width={45} height={45} />
         </Rotate>

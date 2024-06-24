@@ -13,7 +13,7 @@ export const Teachers = () => {
       <p className={styles.teachers__title}>{t("teachers")}</p>
       <div className={styles.teachers__cards}>
         <div className={styles.teachers__card}>
-          <Image className={styles.teachers__image} src={'/assets/img/teacher1.jpg'} alt='teachers' width={295} height={351}/>
+          <Image className={styles.teachers__image} src={'/assets/img/teacher1.jpg'} alt='teachers' width={295} height={400}/>
           <div className={styles.teachers__info}>
             <p className={styles.teachers__name}>{t("coursesList.english")} kids</p>
             <p className={styles.teachers__experience}>Experience: 6 years</p>
@@ -21,7 +21,7 @@ export const Teachers = () => {
           </div>
         </div>
         <div className={styles.teachers__card}>
-        <Image className={styles.teachers__image} src={'/assets/img/teacher2.jpg'} alt='teachers' width={295} height={351}/>
+        <Image className={styles.teachers__image} src={'/assets/img/teacher2.jpg'} alt='teachers' width={295} height={400}/>
           <div className={styles.teachers__info}>
             <p className={styles.teachers__name}>{t("coursesList.sat")}</p>
             <p className={styles.teachers__experience}>Experience: 6 years</p>
@@ -29,7 +29,7 @@ export const Teachers = () => {
           </div>
         </div>
         <div className={styles.teachers__card}>
-        <Image className={styles.teachers__image} src={'/assets/img/teacher3.jpg'} alt='teachers' width={295} height={351}/>
+        <Image className={styles.teachers__image} src={'/assets/img/teacher3.jpg'} alt='teachers' width={295} height={400}/>
           <div className={styles.teachers__info}>
             <p className={styles.teachers__name}>{t("coursesList.chinese")} && {t("coursesList.german")}</p>
             <p className={styles.teachers__experience}>Experience: 6 years</p>
@@ -37,7 +37,7 @@ export const Teachers = () => {
           </div>
         </div>
         <div className={styles.teachers__card}>
-        <Image className={styles.teachers__image} src={'/assets/img/teacher4.jpg'} alt='teachers' width={295} height={351}/>
+        <Image className={styles.teachers__image} src={'/assets/img/teacher4.jpg'} alt='teachers' width={295} height={400}/>
           <div className={styles.teachers__info}>
             <p className={styles.teachers__name}>{t("coursesList.mathematic")}</p>
             <p className={styles.teachers__experience}>Experience: 6 years</p>
@@ -45,7 +45,7 @@ export const Teachers = () => {
           </div>
         </div>
         <div className={styles.teachers__card}>
-        <Image className={styles.teachers__image} src={'/assets/img/teacher6.jpg'} alt='teachers' width={295} height={351}/>
+        <Image className={styles.teachers__image} src={'/assets/img/teacher6.jpg'} alt='teachers' width={295} height={400}/>
           <div className={styles.teachers__info}>
             <p className={styles.teachers__name}>{t("coursesList.korean")}</p>
             <p className={styles.teachers__experience}>Experience: 6 years</p>
@@ -53,7 +53,7 @@ export const Teachers = () => {
           </div>
         </div>
         <div className={styles.teachers__card}>
-        <Image className={styles.teachers__image} src={'/assets/img/bonu.jpg'} alt='teachers' width={295} height={351}/>
+        <Image className={styles.teachers__image} src={'/assets/img/bonu.jpg'} alt='teachers' width={295} height={400}/>
           <div className={styles.teachers__info}>
             <p className={styles.teachers__name}>{t("coursesList.english")}</p>
             <p className={styles.teachers__experience}>Experience: 6 years</p>
