@@ -8,8 +8,10 @@ import styles from './index.module.sass';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Zoom, Fade , Rotate } from "react-reveal";
+import { useTranslations } from "next-intl"
 
 export const Prices: React.FC = () => {
+  const t = useTranslations()
   const swiperRef = useRef(null);
 
   useEffect(() => {
@@ -21,7 +23,7 @@ export const Prices: React.FC = () => {
   return (
     <div className={styles.container} id='prices'>
       <Zoom bottom cascade>
-      <p className={styles.container__title}>Prices</p>
+      <p className={styles.container__title}>{t("prices")}</p>
       </Zoom>
       <Swiper
         effect="coverflow"
@@ -44,55 +46,105 @@ export const Prices: React.FC = () => {
         ref={swiperRef}
       >
         <SwiperSlide className={styles.swiperSlide}>
-          <p className={styles.swiperSlide__title}>Speaking English</p>
+          <p className={styles.swiperSlide__title}>{t("coursesList.english")}</p>
           <p className={styles.swiperSlide__lesson}>35 lessons</p>
           <p className={styles.swiperSlide__hour}>57 hours</p>
-          <p className={styles.swiperSlide__price}>2,000.000 lessons</p>
+          <p className={styles.swiperSlide__price}>{t("coursesList.englishPrice")}</p>
           <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
           <button className={styles.swiperSlide__btn}>Try it</button>
           </Link>
         </SwiperSlide>
         <SwiperSlide className={styles.swiperSlide}>
-          <p className={styles.swiperSlide__title}>Speaking English</p>
+          <p className={styles.swiperSlide__title}>IT</p>
           <p className={styles.swiperSlide__lesson}>35 lessons</p>
           <p className={styles.swiperSlide__hour}>57 hours</p>
-          <p className={styles.swiperSlide__price}>2,000.000 lessons</p>
+          <p className={styles.swiperSlide__price}>{t("coursesList.satPrice")}</p>
           <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
           <button className={styles.swiperSlide__btn}>Try it</button>
           </Link>
         </SwiperSlide>
         <SwiperSlide className={styles.swiperSlide}>
-          <p className={styles.swiperSlide__title}>Speaking English</p>
+          <p className={styles.swiperSlide__title}>{t("coursesList.korean")}</p>
           <p className={styles.swiperSlide__lesson}>35 lessons</p>
           <p className={styles.swiperSlide__hour}>57 hours</p>
-          <p className={styles.swiperSlide__price}>2,000.000 lessons</p>
+          <p className={styles.swiperSlide__price}>{t("coursesList.coreanPrice")}</p>
           <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
           <button className={styles.swiperSlide__btn}>Try it</button>
           </Link>
         </SwiperSlide>
         <SwiperSlide className={styles.swiperSlide}>
-          <p className={styles.swiperSlide__title}>Speaking English</p>
+          <p className={styles.swiperSlide__title}>{t("coursesList.russian")}</p>
           <p className={styles.swiperSlide__lesson}>35 lessons</p>
           <p className={styles.swiperSlide__hour}>57 hours</p>
-          <p className={styles.swiperSlide__price}>2,000.000 lessons</p>
+          <p className={styles.swiperSlide__price}>{t("coursesList.russianPrice")}</p>
           <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
           <button className={styles.swiperSlide__btn}>Try it</button>
           </Link>
         </SwiperSlide>
         <SwiperSlide className={styles.swiperSlide}>
-          <p className={styles.swiperSlide__title}>Speaking English</p>
+          <p className={styles.swiperSlide__title}>{t("coursesList.sat")}</p>
           <p className={styles.swiperSlide__lesson}>35 lessons</p>
           <p className={styles.swiperSlide__hour}>57 hours</p>
-          <p className={styles.swiperSlide__price}>2,000.000 lessons</p>
+          <p className={styles.swiperSlide__price}>{t("coursesList.satPrice")}</p>
           <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
           <button className={styles.swiperSlide__btn}>Try it</button>
           </Link>
         </SwiperSlide>
         <SwiperSlide className={styles.swiperSlide}>
-          <p className={styles.swiperSlide__title}>Speaking English</p>
+          <p className={styles.swiperSlide__title}>{t("coursesList.biology")}</p>
           <p className={styles.swiperSlide__lesson}>35 lessons</p>
           <p className={styles.swiperSlide__hour}>57 hours</p>
-          <p className={styles.swiperSlide__price}>2,000.000 lessons</p>
+          <p className={styles.swiperSlide__price}>{t("coursesList.chinesePrice")}</p>
+          <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
+          <button className={styles.swiperSlide__btn}>Try it</button>
+          </Link>
+        </SwiperSlide>
+
+        <SwiperSlide className={styles.swiperSlide}>
+          <p className={styles.swiperSlide__title}>{t("coursesList.chemistry")}</p>
+          <p className={styles.swiperSlide__lesson}>35 lessons</p>
+          <p className={styles.swiperSlide__hour}>57 hours</p>
+          <p className={styles.swiperSlide__price}>{t("coursesList.englishPrice")}</p>
+          <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
+          <button className={styles.swiperSlide__btn}>Try it</button>
+          </Link>
+        </SwiperSlide>
+
+        <SwiperSlide className={styles.swiperSlide}>
+          <p className={styles.swiperSlide__title}>{t("coursesList.nursing")}</p>
+          <p className={styles.swiperSlide__lesson}>35 lessons</p>
+          <p className={styles.swiperSlide__hour}>57 hours</p>
+          <p className={styles.swiperSlide__price}>{t("coursesList.coreanPrice")}</p>
+          <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
+          <button className={styles.swiperSlide__btn}>Try it</button>
+          </Link>
+        </SwiperSlide>
+
+        <SwiperSlide className={styles.swiperSlide}>
+          <p className={styles.swiperSlide__title}>{t("coursesList.german")}</p>
+          <p className={styles.swiperSlide__lesson}>35 lessons</p>
+          <p className={styles.swiperSlide__hour}>57 hours</p>
+          <p className={styles.swiperSlide__price}>{t("coursesList.russianPrice")}</p>
+          <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
+          <button className={styles.swiperSlide__btn}>Try it</button>
+          </Link>
+        </SwiperSlide>
+
+        <SwiperSlide className={styles.swiperSlide}>
+          <p className={styles.swiperSlide__title}>{t("coursesList.mathematic")}</p>
+          <p className={styles.swiperSlide__lesson}>35 lessons</p>
+          <p className={styles.swiperSlide__hour}>57 hours</p>
+          <p className={styles.swiperSlide__price}>{t("coursesList.coreanPrice")}</p>
+          <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
+          <button className={styles.swiperSlide__btn}>Try it</button>
+          </Link>
+        </SwiperSlide>
+
+        <SwiperSlide className={styles.swiperSlide}>
+          <p className={styles.swiperSlide__title}>{t("coursesList.design")}</p>
+          <p className={styles.swiperSlide__lesson}>35 lessons</p>
+          <p className={styles.swiperSlide__hour}>57 hours</p>
+          <p className={styles.swiperSlide__price}>{t("coursesList.satPrice")}</p>
           <Link href={'https://student-union.modme.uz/entry/lead?utm_source=4564&section=145181'} target='_blank'>
           <button className={styles.swiperSlide__btn}>Try it</button>
           </Link>
