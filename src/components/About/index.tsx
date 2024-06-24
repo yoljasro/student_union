@@ -13,17 +13,17 @@ export const About = () => {
       <p className={styles.about__title}>{t("about")}</p>
       <div className={styles.about__cards}>
         <div className={styles.about__card}>
-          <Image src={'/assets/img/cardone.png'} alt='cardone' width={48} height={48} />
+          <Image src={'/assets/img/icon11.png'} alt='cardone' width={48} height={48} />
           <p className={styles.about__cardTitle}>{t("aboutBlock.title")}</p>
           <p className={styles.about__desc}>{t("aboutBlock.desc")}</p>
         </div>
         <div className={styles.about__card}>
-          <Image src={'/assets/img/cardtwo.png'} alt='cardone' width={48} height={48} />
+          <Image src={'/assets/img/icon2.png'} alt='cardone' width={48} height={48} />
           <p className={styles.about__cardTitle}>{t("aboutBlock.title")}</p>
           <p className={styles.about__desc}>{t("aboutBlock.descTwo")}</p>
         </div>
         <div className={styles.about__card}>
-          <Image src={'/assets/img/cardthree.png'} alt='cardone' width={48} height={48} />
+          <Image src={'/assets/img/icon1.png'} alt='cardone' width={48} height={48} />
           <p className={styles.about__cardTitle}>{t("aboutBlock.titleThre")}</p>
           <p className={styles.about__desc}>{t("aboutBlock.descThree")} </p>
         </div>

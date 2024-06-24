@@ -1,12 +1,12 @@
-import React from 'react'
-import styles from './index.module.sass'
-import Image from 'next/image'
-import Link from 'next/link'
+import React from 'react';
+import styles from './index.module.sass';
+import Image from 'next/image';
+import Link from 'next/link';
 import { Zoom, Fade } from "react-reveal";
 import { useTranslations } from "next-intl";
 
 export const Header = () => {
-  const t = useTranslations()
+  const t = useTranslations();
 
   return (
     <div className={styles.header} id='header'>
@@ -25,5 +25,7 @@ export const Header = () => {
         <Image className={styles.header__bookBoy} src={'/assets/img/bookBoy.png'} alt='bookBoy' width={530} height={530} />
       </Fade>
     </div>
-  )
-}
+  );
+};
+
+export default Header;

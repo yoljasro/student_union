@@ -14,7 +14,7 @@ export const Footer = () => {
       </div>
       <div className={styles.footer__social}>
         <Rotate bottom cascade>
-        <Image className={styles.footer__icon} src={'/assets/img/facebook.png'} alt='facebook' width={45} height={45} />
+        <Image className={styles.footer__icon} src={'/assets/img/face.png'} alt='facebook' width={45} height={45} />
         <Link href={'https://www.instagram.com/student_union_edu_/'} target='_blank'>
         <Image className={styles.footer__icon} src={'/assets/img/insta.png'} alt='insta' width={45} height={45} />
         </Link>
